@@ -6,10 +6,11 @@ body{
 }
 
 
-header{
+.header{
     background-color: white;
     font-family: "Raleway", sans-serif;
     border-bottom: 1px solid #e7e9fc
+
 }
 
 .logo{
@@ -24,21 +25,10 @@ color: #4d5ae5;
 margin-right: 76px;
 }
 
-.menu{ 
-    display: flex;
-    padding: 24px 0;
-
-}
-
 .part{
     color: #2e2f42;
 }
-
-.contacts{
-    display: flex;
-    gap: 40px;
-}
-
+ 
 .navigation{
     --font-family: "Roboto", sans-serif;
     text-decoration: none;
@@ -264,16 +254,27 @@ color: #f4f4fd;}
 
 .container{
     width: 1158px;
-
+    margin: 0;
+padding: 0 15px 0 15px;
 }
 
-header>div{
-display: flex;
-margin: 0;
-padding: 0 15 0 15;
+
+.header-container{
+    display: flex;
 }
 
 .navig{
     display: flex;
     align-items: center;
+}
+
+.contacts{
+    display: flex;
+    padding: 24px 0;
+
+}
+
+.menu{ 
+    display: flex;
+    gap: 40px;
 }
