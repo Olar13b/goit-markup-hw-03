@@ -91,6 +91,8 @@ color: #434455;
 .slogan{
 background: #2e2f42;
 padding: 188px 0;
+text-align: center;
+
 }
 
 .motto{
@@ -102,6 +104,9 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
 max-width: 496px;
+margin: auto;
+margin-bottom: 48px;
+
 }
 
 .order-service{
@@ -118,6 +123,10 @@ min-width: 169px;
 height: 56px;
 border: none;
 border-radius: 4px;
+margin-left: 472px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #4d5ae5;
+
 }
 
 .order-service:hover,
@@ -190,6 +199,8 @@ margin-bottom: 72px;
 
 .names{
     padding: 32px 0;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+background: #fff;
 }
 .head-team{
 font-family: "Roboto", sans-serif;
@@ -325,6 +336,8 @@ max-width: 264px;
 .contacts{
     display: flex;
     gap: 40px;
+    padding: 24px 0;
+padding-left: 332px;
 }
 
 .menu{ 
